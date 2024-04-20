@@ -1,0 +1,403 @@
+header,section,article,nav,footer,aside{
+    border: 1px solid #333;
+    padding: 7px;
+    margin: 10px;
+}
+
+section,aside{
+    float: left;
+}
+
+.header{
+    background-color: darkkhaki;
+    padding: 9px;
+    text-align: center;
+    color: #333;
+}
+
+.menu ul{
+    background-color: #531a1b;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.menu ul li a :hover{
+    background-color: #7d2729;
+}
+
+.sidebar{
+    background-color: #111;
+    padding: 10px;
+    color: white;
+    width: 21%;
+    min-height: 700px; 
+    float: left;
+}
+
+.sidebar li{
+    list-style-type: none;
+    padding: 7px;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a :hover{
+    color: red;
+}
+
+.change{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    width: 76.3%;
+    float: left;
+    min-height: 700px;
+}
+
+.change header{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.change .content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.change footer{
+    border-top: 1px solid #000;
+    padding: 5px;
+    float: right;
+}
+
+.page-bottom{
+    background-color: darkolivegreen;
+    padding: 15px;
+    height: 40px;
+    clear: left;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.change figure{
+    text-align: center;
+}
+
+.change figcaption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    font-size: 12px;
+}
+
+#result{
+    color: green;
+}
+
+summary{
+    border-bottom: 1px solid #ccc;
+}
+
+mark{
+    background-color: #333;
+    color: white;
+    padding: 4px;
+}
+.test,Unique2{
+    border: 2px solid green;
+}
+WidthElement{
+    width: 500px;
+}
+
+.corner{
+    border-radius: 50%;
+    background-color: #900;
+    padding: 90px 10px 0 50px;
+    width: 400px;
+    height: 260px;
+    color: white;
+}
+
+.BorderImg{
+    border: 10px solid transparent;
+    padding: 15px;
+    width: 640px;
+    border-image: url(https://st3.depositphotos.com/5045705/17127/v/450/depositphotos_171279688-stock-illustration-cartoon-100-dollar-bill.jpg)  30 stretch;
+}
+
+#Back{
+    background: url(https://img.freepik.com/free-vector/hand-drawn-100-dollar-bill-cartoon-illustration_23-2150981644.jpg) right bottom no-repeat , url(https://img.freepik.com/free-vector/hand-drawn-100-dollar-bill-cartoon-illustration_23-2150910168.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712448000&semt=ais) left top repeat;
+    background-size: 100px 70px,auto;
+    padding: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size: 60px 50px;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size: contain ;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size:  cover;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+}
+
+.Back{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: border-box;
+    margin-bottom: 20px;
+}
+
+.Back2{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: content-box;
+    margin-bottom: 20px;
+}
+
+.Back3{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: padding-box;
+}
+
+.grad{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: radial-gradient(red,black,violet);
+}
+
+.grad2{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-side at 68% 55%,red,black,pink);
+}
+
+.grad3{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-side at 68% 55%,red,black,pink);
+}
+
+.grad4{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-corner at,red,black,);
+}
+
+.grad5{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-corner at,red,black,);
+}
+
+.shadow{
+    position: relative;
+    width: 620;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 3px 5px rgba(0,0 ,0 , 0.5);
+    padding: 15px;
+}
+
+.shadow img{
+    width: 100%;
+    border: 1px solid #686868;
+   border-style: inset;
+}
+
+.shadow ::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 83%;
+    left: 10%;
+    height: 100px;
+    bottom: 0;
+    box-shadow: 0 15px 20px rgba(0,0 ,0 , 0.4);
+}
+
+.text{
+    width: 100px;
+    border: 1px solid #111;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.text2{
+    width: 180px;
+    border: 1px solid #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text :hover{
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+.text3{
+    width: 180px;
+    border: 1px solid #111;
+    word-wrap: break-word;
+}
+
+.text4{
+    width: 180px;
+    border: 1px solid #111;
+    word-break: break-all;
+}
+
+@font-face {
+    font-family: 'dreamHer';
+    src: url(https://static.vecteezy.com/system/resources/previews/010/503/925/non_2x/la-casa-de-papel-title-with-dali-mask-clothes-red-design-graphic-netflix-film-abstract-illustration-money-heist-in-white-background-free-vector.jpg);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.special-font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.normal{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-left: 50px;
+    perspective: 100px;
+    perspective-origin: left;
+}
+
+.normal2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-left: 50px;
+    perspective: 100px;
+    perspective-origin: left;
+}
+
+.transform{
+   padding: 50px;
+   position: absolute;
+   border: 1px solid red;
+   background-color: darkolivegreen;
+   background: rgba(0,0,0,0.5);
+   transform-style: preserve-3d;
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+}
+
+.transition div{
+    flex: 1;
+    cursor: pointer;
+    background: darkred;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    padding: 20px;
+    text-align: center;
+}
+
+.transition div:hover{
+    flex: 1.5s;
+    background-color: darkkhaki;
+    
+}
+
+
+.rules{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+}
+
+.rules :hover{
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-name: renk;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes renk{
+    0%{background-color: darkgoldenrod;left: 0;top: 0;}
+    25%{background-color: deeppink;left: 200px;top: 0;}
+    50%{background-color: darkgreen;left: 200px;top: 200px;}
+    75%{background-color: darkblue;left: 0;top: 200px;}
+    100%{background-color: black;left: 0;top: 0;}
+}
+
+@keyframes renk{
+    0%{background-color: darkgoldenrod;left: 0;top: 0;}
+    25%{background-color: deeppink;left: 200px;top: 0;}
+    50%{background-color: darkgreen;left: 200px;top: 200px;}
+    75%{background-color: darkblue;left: 0;top: 200px;}
+    100%{background-color: black;left: 0;top: 0;}
+}

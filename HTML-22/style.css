@@ -1,0 +1,39 @@
+.special-text{
+    color: #1a1a1a;
+    line-height: 25px;
+}
+
+h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+
+}
+
+.special-font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+
+a:link{
+    color: #f00;
+    text-decoration: none;
+}
+a:hover{
+    color: darkgreen;
+    text-decoration: underline;
+}
+.style-list-ul{
+    list-style: upper-roman inside;
+    background-color: darkolivegreen;
+    padding: 5px;
+}
+.style-list-ol{
+    margin: 10px;
+    background-color: firebrick;
+    padding: 5px;
+    color: #fff;
+}

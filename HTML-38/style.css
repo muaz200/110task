@@ -1,0 +1,36 @@
+.special-text{
+    color: #1a1a1a;
+    line-height: 25px;
+}
+
+h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.special-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+.tooltip{
+    position: relative;
+    display: inline-block;
+    margin-left: 20%;
+}
+input{
+    border: 1px solid #ddd;
+    width: 10%;
+}
+
+.tp-text{
+    width: 150px;
+    background-color: red;
+    color: white;
+    padding: 9px 10px;
+    border-radius: 4px;
+    z-index: 1;
+}

@@ -1,0 +1,839 @@
+/*main{
+    overflow-x: hidden;
+}
+
+header,section,article,nav,footer,aside{
+    border: 1px solid #333;
+    padding: 7px;
+    margin: 10px;
+}
+
+section,aside{
+    float: left;
+}
+
+.header{
+    background-color: darkkhaki;
+    padding: 9px;
+    text-align: center;
+    color: #333;
+}
+
+.menu ul{
+    background-color: #531a1b;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.menu ul li a :hover{
+    background-color: #7d2729;
+}
+
+.sidebar{
+    background-color: #111;
+    padding: 10px;
+    color: white;
+    width: 21%;
+    min-height: 700px; 
+    float: left;
+}
+
+.sidebar li{
+    list-style-type: none;
+    padding: 7px;0
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a :hover{
+    color: red;
+}
+
+.change{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    width: 76.3%;
+    float: left;
+    min-height: 700px;
+}
+
+.change header{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.change .content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.change footer{
+    border-top: 1px solid #000;
+    padding: 5px;
+    float: right;
+}
+
+.page-bottom{
+    background-color: darkolivegreen;
+    padding: 15px;
+    height: 40px;
+    clear: left;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.change figure{
+    text-align: center;
+}
+
+.change figcaption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    font-size: 12px;
+}
+
+#result{
+    color: green;
+}
+
+summary{
+    border-bottom: 1px solid #ccc;
+}
+
+mark{
+    background-color: #333;
+    color: white;
+    padding: 4px;
+}
+.test,Unique2{
+    border: 2px solid green;
+}
+WidthElement{
+    width: 500px;
+}
+
+.corner{
+    border-radius: 50%;
+    background-color: #900;
+    padding: 90px 10px 0 50px;
+    width: 400px;
+    height: 260px;
+    color: white;
+}
+
+.BorderImg{
+    border: 10px solid transparent;
+    padding: 15px;
+    width: 640px;
+    border-image: url(https://st3.depositphotos.com/5045705/17127/v/450/depositphotos_171279688-stock-illustration-cartoon-100-dollar-bill.jpg)  30 stretch;
+}
+
+#Back{
+    background: url(https://img.freepik.com/free-vector/hand-drawn-100-dollar-bill-cartoon-illustration_23-2150981644.jpg) right bottom no-repeat , url(https://img.freepik.com/free-vector/hand-drawn-100-dollar-bill-cartoon-illustration_23-2150910168.jpg?size=626&ext=jpg&ga=GA1.1.1700460183.1712448000&semt=ais) left top repeat;
+    background-size: 100px 70px,auto;
+    padding: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size: 60px 50px;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size: contain ;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+    background-size:  cover;
+    margin-bottom: 15px;
+}
+
+.dollar{
+    border: 1px solid #000;
+    width: 150px;
+    height: 120px;
+    background: url(https://img.freepik.com/free-vector/hand-drawn-cartoon-money-illustration_23-2150899188.jpg?size=338&ext=jpg&ga=GA1.1.735520172.1712188800&semt=ais) no-repeat;
+}
+
+.Back{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: border-box;
+    margin-bottom: 20px;
+}
+
+.Back2{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: content-box;
+    margin-bottom: 20px;
+}
+
+.Back3{
+    border: 1px dotted green;
+    background: yellow;
+    padding: 15px;
+    width: 70%;
+    background-clip: padding-box;
+}
+
+.grad{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: radial-gradient(red,black,violet);
+}
+
+.grad2{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-side at 68% 55%,red,black,pink);
+}
+
+.grad3{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-side at 68% 55%,red,black,pink);
+}
+
+.grad4{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-corner at,red,black,);
+}
+
+.grad5{
+    height: 200px;
+    width: 500px;
+    margin-bottom: 20px;
+    background-image: linear-gradient(closest-corner at,red,black,);
+}
+
+.shadow{
+    position: relative;
+    width: 620;
+    text-align: center;
+    background-color: white;
+    box-shadow: 2px 3px 5px rgba(0,0 ,0 , 0.5);
+    padding: 15px;
+}
+
+.shadow img{
+    width: 100%;
+    border: 1px solid #686868;
+   border-style: inset;
+}
+
+.shadow ::after{
+    content: '';
+    position: absolute;
+    z-index: -1;
+    width: 83%;
+    left: 10%;
+    height: 100px;
+    bottom: 0;
+    box-shadow: 0 15px 20px rgba(0,0 ,0 , 0.4);
+}
+
+.text{
+    width: 100px;
+    border: 1px solid #111;
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.text2{
+    width: 180px;
+    border: 1px solid #111;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.text :hover{
+    text-overflow: inherit;
+    overflow: visible;
+}
+
+.text3{
+    width: 180px;
+    border: 1px solid #111;
+    word-wrap: break-word;
+}
+
+.text4{
+    width: 180px;
+    border: 1px solid #111;
+    word-break: break-all;
+}
+
+@font-face {
+    font-family: 'dreamHer';
+    src: url(https://static.vecteezy.com/system/resources/previews/010/503/925/non_2x/la-casa-de-papel-title-with-dali-mask-clothes-red-design-graphic-netflix-film-abstract-illustration-money-heist-in-white-background-free-vector.jpg);
+    font-weight: normal;
+    font-style: normal;
+}
+
+.special-font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 48px;
+    font-weight: lighter;
+}
+
+.normal{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-left: 50px;
+    perspective: 100px;
+    perspective-origin: left;
+}
+
+.normal2{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 1px solid grey;
+    margin-left: 50px;
+    perspective: 100px;
+    perspective-origin: left;
+}
+
+.transform{
+   padding: 50px;
+   position: absolute;
+   border: 1px solid red;
+   background-color: darkolivegreen;
+   background: rgba(0,0,0,0.5);
+   transform-style: preserve-3d;
+   transform: rotate(45deg);
+   -webkit-transform: rotate(45deg);
+   -moz-transform: rotate(45deg);
+   -ms-transform: rotate(45deg);
+   -o-transform: rotate(45deg);
+}
+
+.transition div{
+    flex: 1;
+    cursor: pointer;
+    background: darkred;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+    padding: 20px;
+    text-align: center;
+}
+
+.transition div:hover{
+    flex: 1.5s;
+    background-color: darkkhaki;
+    
+}
+
+
+.rules{
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    background-color: darkred;
+    position: relative;
+    color: white;
+    animation: Move 5s linear 2s infinite alternate;
+    -webkit-animation: Move 5s linear 2s infinite alternate;
+}
+
+@-webkit-keyframes renk{
+    0%{background-color: darkgoldenrod;left: 0;top: 0;}
+    25%{background-color: deeppink;left: 200px;top: 0;}
+    50%{background-color: darkgreen;left: 200px;top: 200px;}
+    75%{background-color: darkblue;left: 0;top: 200px;}
+    100%{background-color: black;left: 0;top: 0;}
+}
+
+@keyframes renk{
+    0%{background-color: darkgoldenrod;left: 0;top: 0;}
+    25%{background-color: deeppink;left: 200px;top: 0;}
+    50%{background-color: darkgreen;left: 200px;top: 200px;}
+    75%{background-color: darkblue;left: 0;top: 200px;}
+    100%{background-color: black;left: 0;top: 0;}
+}
+
+#cube{
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    perspective: 800px;
+}
+
+.box{
+    width: 400px;
+    transform-style: preserve-3d;
+}
+
+.box div{
+    color: white;
+    font: 64px Impact;
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    opacity: 0.6;
+}
+
+.front-face{
+    transform: translateZ(200px);
+    -webkit-transform: translateZ(200px);
+    -moz-transform: translateZ(200px);
+    -ms-transform: translateZ(200px);
+    -o-transform: translateZ(200px);
+    background-color: #000;
+}
+
+.back-face{
+   transform: rotateY(180deg) translateZ(200px);
+   -webkit-transform: rotateY(180deg) translateZ(200px);
+   -moz-transform: rotateY(180deg) translateZ(200px);
+   -ms-transform: rotateY(180deg) translateZ(200px);
+   -o-transform: rotateY(180deg) translateZ(200px);
+   background-color: black;
+}
+
+.left-face{
+    transform: rotateY(-90deg) translateX(-200px);
+    -webkit-transform: rotateY(-90deg) translateX(-200px);
+    -moz-transform: rotateY(-90deg) translateX(-200px);
+    -ms-transform: rotateY(-90deg) translateX(-200px);
+    -o-transform: rotateY(-90deg) translateX(-200px);
+    transform-origin: left;
+    background-color: black;
+}
+
+.right-face{
+    transform: rotateY(90deg) translateX(200px);
+    -webkit-transform: rotateY(90deg) translateX(200px);
+    -moz-transform: rotateY(90deg) translateX(200px);
+    -ms-transform: rotateY(90deg) translateX(200px);
+    -o-transform: rotateY(90deg) translateX(200px);
+    transform-origin: left;
+    background-color: black;
+}
+
+.top-face{
+    transform: rotateY(-90deg) translateY(-200px);
+    -webkit-transform: rotateY(-90deg) translateY(-200px);
+    -moz-transform: rotateY(-90deg) translateY(-200px);
+    -ms-transform: rotateY(-90deg) translateY(-200px);
+    -o-transform: rotateY(-90deg) translateY(-200px);
+    transform-origin: top;
+    background-color: black;
+}
+
+.bottom-face{
+    transform: rotateY(90deg) translateY(200px);
+    -webkit-transform: rotateY(90deg) translateY(200px);
+    -moz-transform: rotateY(90deg) translateY(200px);
+    -ms-transform: rotateY(90deg) translateY(200px);
+    -o-transform: rotateY(90deg) translateY(200px);
+    transform-origin: top;
+    background-color: black;
+}
+
+@keyframes Move{
+    0%{ transform:rotateY(0) ; -webkit-transform:rotateY(0) ; -moz-transform:rotateY(0) ; -ms-transform:rotateY(0) ; -o-transform:rotateY(0) ;}
+    100%{ transform:rotateY(360deg) ; -webkit-transform:rotateY(360deg) ; -moz-transform:rotateY(360deg) ; -ms-transform:rotateY(360deg) ; -o-transform:rotateY(360deg) ; }
+}
+
+img{
+   width: 100%;
+   height: auto;
+}
+
+/*img :hover{
+    box-shadow: 0 0 2px 1px rgba(0,0,0,0.5);
+}*/
+
+/*.BorderImg{
+    width: 45%;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.2);
+    position: relative;
+}
+
+.content-footer{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    color: white;
+}
+
+.img{
+    width: 30%;
+    height: auto;
+    float: left;
+    margin: 10px;
+    border: 1px solid #999;
+    padding: 5px;
+}
+
+.blur{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.sepia{
+    filter: blur(3px);
+    -webkit-filter: blur(3px);
+}
+
+.picture{
+    display: block;
+    width: 100%;
+    height: auto;
+    opacity: 1;
+    transition: .5s ease;
+    -webkit-transition: .5s ease;
+    -moz-transition: .5s ease;
+    -ms-transition: .5s ease;
+    -o-transition: .5s ease;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    
+}
+
+/*.img{
+    display: block;
+    margin: 150px auto;
+    border: 2px solid darkolivegreen;
+    padding: 25px;
+    animation: logo 8s linear infinite;
+    -webkit-animation: logo 8s linear infinite;
+}
+
+@keyframes logo{
+    0%{ transform:rotateY(0) ; -webkit-transform:rotateY(0) ; -moz-transform:rotateY(0) ; -ms-transform:rotateY(0) ; -o-transform:rotateY(0) ; }
+    100%{ transform:rotateY(360deg) ; -webkit-transform:rotateY(360deg) ; -moz-transform:rotateY(360deg) ; -ms-transform:rotateY(360deg) ; -o-transform:rotateY(360deg) ; }
+}*/
+
+/*.button{
+    background-color: white;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 4px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button-danger{
+    background-color: darkred;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.7),0 6px 20px 0 rgba(0,0,0,0.4);
+    width: 25%;
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.button-success{
+    background-color: green;
+    color: white;
+    width: 50%;
+}
+
+.button-success :hover{
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.3),0 16px 30px 0 rgba(0,0,0,0.25);
+}
+
+.button{
+    background-color: #423c88;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+    padding: 15px 30px;
+    text-align: center;
+    margin: 4px 5px;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 28px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 19%;
+    box-shadow: 0 8px 6px 0 #999;
+}
+
+.button :hover{
+    background-color: #2f2a05;
+}
+
+.button :active{
+    background-color: #2f2a05;
+    box-shadow: 0 4px 4px 0 #666;
+    transform: translateY(4px);
+    -webkit-transform: translateY(4px);
+    -moz-transform: translateY(4px);
+    -ms-transform: translateY(4px);
+    -o-transform: translateY(4px);
+}
+
+/*.pagination{
+    display: inline-block;
+}
+
+.pagination a{
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: all .6s;
+    -webkit-transition: all .6s;
+    -moz-transition: all .6s;
+    -ms-transition: all .6s;
+    -o-transition: all .6s;
+    border-top: 1px solid #777;
+    border-bottom: 1px solid #777;
+    margin-right: 5px;
+}
+
+.pagination a :not(odd){
+    border-left: 1px solid #777;
+}
+
+.pagination a :first-child{
+    border-right: 1px solid #777;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.pagination .active{
+    background-color: darkred;
+    color: rgb(255,255,255);
+    border: 1px solid darkred;
+}*/
+
+/*.breadcrumb{
+    padding: 8px 16px;
+    list-style-type: none;
+    background-color: #eee;
+}
+
+.breadcrumb li{
+    display: inline;
+    color: grey;
+}
+
+.breadcrumb li a{
+    color: darkred;
+    text-decoration: none;
+}
+
+.breadcrumb li a :hover{
+    text-decoration: underline;
+}
+
+.breadcrumb li+li ::before{
+    content: '/\00a0';
+    color: black;
+    padding: 8px;
+}
+
+.userface{
+    border: 9px solid black;
+    width: 25%;
+    padding: 20px;
+    height: 100px;
+    margin: 20px;
+    resize: none;
+    overflow: auto;
+    outline: 9px solid darkred;
+    outline-offset: 15px;
+}
+
+.setting{
+    width: 400px;
+    height: 100px;
+}
+
+.small{
+    background-color: #333;
+    padding: 20px;
+    border: 2px solid darkred;
+    box-sizing: border-box;
+}
+
+.big{
+    border: 2px solid darkolivegreen;
+}
+
+input textarea{
+    width: 100%;
+}
+
+.flex-container{
+    width: 90%;
+    height: 400px;
+    background-color: darkred;
+    display: flex;
+    border: 2px solid rgba(0,0,0,0.7);
+    flex-wrap: wrap;
+}
+
+.item{
+    background-color: rgba(255,255,255,0.8);
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    line-height: 75px;
+    font-size: 28px;
+} */
+
+/*.container{
+    overflow: auto;
+}
+
+.main{
+    margin-left: 5px;
+}
+
+.sidebar{
+    float: none;
+    width: auto;
+}
+
+.menu{
+    margin: 0;
+    padding: 0;
+}
+
+.item{
+    background: darkred;
+    border: 1px solid black;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -o-border-radius: 3px;
+    list-style-type: none;
+    margin: 5px;
+    padding: 4px;
+    color: white;
+}
+
+@media  screen and (max-width:480px) {
+   .sidebar{
+    float: left;
+    width: 250px;
+   }
+}  */
+
+/*input :in-range{
+    border: 2px solid green;
+    padding: 5px;
+}
+
+input :out-of-range{
+    border: 2px solid red;
+    padding: 5px;
+} */
+
+/*input :valid{
+    padding: 5px;
+    color: #555;
+    border: 2px solid green;
+    margin: 5px;
+    font-size: 22px;
+}
+
+:target{
+    border: 2px solid darkred;
+    font-size: 18px;
+    background-color: #333;
+    color: white;
+    padding: 15px;
+} */
+
+/*.img{
+    width: 50%;
+    height: 100%;
+    float: left;
+    object-fit: contain;
+} */
+
+div{
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+    height: 80px;
+}
+
+.newspaper1{
+    -moz-column-fill: auto;
+    column-fill: auto;
+}
+
+.newspaper2{
+    -moz-column-fill: balance;
+    column-fill: balance;
+}

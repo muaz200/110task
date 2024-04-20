@@ -1,0 +1,18 @@
+button[type="button"]{
+    width: 100%;
+    background-color: #544109;
+    color: #fff;
+    padding: 15px 0;
+    margin: 15px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: zoom-out;
+}
+
+button[type="button"] :hover{
+    background-color: #6e550b;
+}
+
+h2{
+    cursor: vertical-text;
+}

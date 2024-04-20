@@ -1,0 +1,22 @@
+
+.special-text{
+    color: #111;
+    line-height: 25px;
+}
+
+h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.special-font{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+.sp-color{
+    color: red;
+}

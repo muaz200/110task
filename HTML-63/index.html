@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML63</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <header class="header">
+             <h1>html ve css egitimi</h1>
+        </header>
+        <nav class="menu">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">news</a></li>
+                <li><a href="#">gallery</a></li>
+                <li><a href="#">privacy policy</a></li>
+                <li><a href="#">contac</a></li>
+            </ul>
+        </nav>
+        <aside class="sidebar">
+              <details>
+                <summary>egitim setlerim</summary>
+                <ul>
+                    <li><a href="#">html</a></li>
+                    <li><a href="#">css</a></li>
+                    <li><a href="#">html5</a></li>
+                    <li><a href="#">css3</a></li>
+                    <li><a href="#">javascript</a></li>
+                    <li><a href="#">node js</a></li>
+                </ul>
+              </details>
+              <details>
+                <summary>pictures</summary>
+                <img src="https://www.themarysue.com/wp-content/uploads/2023/03/hange-levi-attack-on-titan-final-season-part-3.jpg?fit=1200%2C625" alt="">
+                <img src="https://cdn.mos.cms.futurecdn.net/X9NQBMUWUtG7SzrsVQhrA3-1200-80.jpg" alt="">
+                <img src="https://wallpapers.com/images/hd/attack-on-titan-training-corps-iifxwvynzuhicsxc.jpg" alt="">
+              </details>
+              <details open>
+                <summary>login</summary>
+                <br>
+                <form>
+                    <label>username</label>
+                    <p><input type="text" name="username" id="username"></p>
+                    <label>password</label>
+                    <p><input type="text" name="password" id="password"></p>
+                    <input  type="submit" id="login" value="login">
+                </form>
+              </details>
+        </aside>
+        <section class="change">
+            <header>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, qui quia ab autem eum harum aut. Sunt magnam maxime, temporibus beatae laudantium quibusdam ipsam, ad provident mollitia, laboriosam nisi cum?</h3>
+            </header>
+               <div contextmenu="new-menu">
+                <menu id="new-menu" type="context">
+                        <menuitem>yeniden yukle</menuitem>
+                        <menuitem>mesaj</menuitem>
+                        <menuitem>yeni menu</menuitem>
+                </menu>
+                <p>Lorem ipsum dolor sit amet consectetur  adipisicing elit. Reiciendis eum, atque ex iure eius nobis quibusdam ut sapiente distinctio possimus quidem voluptate expedita autem perferendis dolorem  impedit culpa beatae ipsam. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum delectus perspiciatis ea autem esse et harum hic, saepe architecto magnam alias nesciunt itaque odit? Soluta eius ipsam enim optio quaerat.</p>
+               </div>
+          <canvas id="newcanvas" width="400" height="300" style="border: 1px solid #bbb;"></canvas>
+           <script>
+            var mycanvas=document.querySelector("#newcanvas").getContent("2d");
+           /* content.fillStyle="#ff0000";
+            content.fillRect(65,75,90,90);
+            content.strokeStyle="#000000"
+            content.lineWidth="5"
+            content.strokeRect(65,75,90,90)
+            content.lineWidth="5";
+            content.strokeStyle="green";
+            content.moveTo(0,150);
+            content.lineTo(200,150);
+            content.stroke();
+            content.beginPath();
+            content.lineWidth="4";
+            content.strokeStyle="darklivegreen";
+            content.arc(300,130,90,0.5*Math.PI,1*Math.PI,true);
+            content.stroke();*/
+           var pictures=new Image();
+           pictures.onload=function(){
+            mycanvas.drawimage(picture,0,0);
+            mycanvas.beginPath();
+            mycanvas.lineWidth="3";
+            mycanvas.strokeStyle="black";
+            mycanvas.moveTo(121,258);
+            mycanvas.lineTo(121,36);
+              mycanvas.stroke();
+            mycanvas.beginPath();
+            mycanvas.lineWidth="3";
+            mycanvas.strokeStyle="black";
+            mycanvas.moveTo(121,258);
+            mycanvas.lineTo(121,258);
+            mycanvas.stroke();
+            mycanvas.beginPath();
+              mycanvas.lineWidth="2";
+            mycanvas.strokeStyle="white";
+            mycanvas.moveTo(121,258);
+            mycanvas.lineTo(183,200);
+            mycanvas.lineTo(250,200);
+            mycanvas.lineTo(325,150);
+            mycanvas.lineTo(400,220);
+            mycanvas.lineTo(600,100);
+            mycanvas.stroke();
+           }
+
+           picture.src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyevA36WQjDV994NPEBetNyqrwyDbAKKGgPtUxfNU6fw&s";
+           </script>
+        </section>
+        <footer class="page-bottom">
+            &copy;2019 fehmiuyarnet kanali tum haklari saklidir
+        </footer>
+    </main>
+</body>
+</html>

@@ -1,0 +1,118 @@
+header,section,article,nav,footer,aside{
+    border: 1px solid #333;
+    padding: 7px;
+    margin: 10px;
+}
+
+section,aside{
+    float: left;
+}
+
+.header{
+    background-color: darkkhaki;
+    padding: 9px;
+    text-align: center;
+    color: #333;
+}
+
+.menu ul{
+    background-color: #531a1b;
+    padding: 15px;
+    margin: 0;
+}
+
+.menu ul li{
+    list-style-type: none;
+    display: inline;
+    padding-right: 20px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 18px;
+    padding: 15px;
+}
+
+.menu ul li a :hover{
+    background-color: #7d2729;
+}
+
+.sidebar{
+    background-color: #111;
+    padding: 10px;
+    color: white;
+    width: 21%;
+    height: 540px;
+    float: left;
+}
+
+.sidebar li{
+    list-style-type: none;
+    padding: 7px;
+}
+
+.sidebar a{
+    color: white;
+    text-decoration: none;
+}
+
+.sidebar a :hover{
+    color: red;
+}
+
+.change{
+    background-color: darkred;
+    padding: 10px;
+    color: white;
+    width: 76.3%;
+    float: left;
+    height: 500px;
+}
+
+.change header{
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    border-bottom: 1px solid #000;
+}
+
+.change .content{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+}
+
+.change footer{
+    border-top: 1px solid #000;
+    padding: 5px;
+    float: right;
+}
+
+.page-bottom{
+    background-color: darkolivegreen;
+    padding: 15px;
+    height: 40px;
+    clear: left;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.change figure{
+    text-align: center;
+}
+
+.change figcaption{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #444;
+    font-size: 12px;
+}
+
+#result{
+    color: green;
+}
+
+summary{
+    border-bottom: 1px solid #ccc;
+}

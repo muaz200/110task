@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML51</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>html ve css egitim seti</h1>
+  </header>
+  <nav class="menu">
+      <ul>
+         <li><a href="#">home</a></li>
+         <li><a href="#">about</a></li>
+         <li><a href="#">services</a></li>
+         <li><a href="#">news</a></li>
+         <li><a href="#">gallery</a></li>
+         <li><a href="#">privacy policy</a></li>
+         <li><a href="#">contact</a></li>
+      </ul>
+   </nav>
+   <aside class="sidebar">
+      <header>
+         <h2>egitim setlerim</h2>
+     </header>
+         <ul>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+             <li><a href="#"></a></li>
+         </ul>
+         <hgroup>
+             <h1>menu 1</h1>
+             <h2 style="text-align: left!important;">menu 2</h2>
+             <h3>menu 3</h3>
+             <h4>menu 4</h4>
+             <h5>menu 5</h5>
+             <h6>menu 6</h6>
+         </hgroup>
+  </aside>
+    <section class="change">
+        <header>
+            <h3>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui non doloribus error fugit velit sint nulla voluptatibus ipsa voluptates, autem architecto earum
+                 magni voluptate odit eos iure necessitatibus iusto rem?
+            </h3>
+        </header>
+        <label>loading..</label>
+         <progress max="100" value="0" id="load" style="width: 300px ;"></progress>
+         <h3 id="result"></h3>
+         </section>
+         <footer class="page-bottom">&copy; 2019 fehmiuyarnet kanali tum haklari saklidir</footer>
+         <script>
+            var valueLoad=0;
+            progressBar(valueLoad);
+            function progressBar(valueLoad){
+                var bar=document.getElementById("load");
+                bar.value=valueLoad;
+                valueLoad++;
+                var loadTime=setTimeout=setTimeout("progressBar("+valueLoad+")",50);
+                if(valueLoad > 100){
+                    clearTimeout(loadTime);
+                    document.getElementById("result").innerHTML="yukleme tamamlandi"
+                }
+            }
+         </script>
+</body>
+</html>
+</body>
+</html>

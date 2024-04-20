@@ -1,0 +1,13 @@
+
+
+.background{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRq_yUAQb_b6PZ4481Cs01A0U-Kj7yFelIGfOlN0-2e7w&s);
+    background-color: darkolivegreen;
+    color: brown;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    padding: 20px;
+    width: 80%;
+    height: 350px;
+}

@@ -1,0 +1,39 @@
+.special-text{
+    color: #1a1a1a;
+    line-height: 25px;
+}
+
+h2{
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    text-align: center;
+}
+
+.special-font{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-style: normal;
+    font-weight: lighter;
+    font-variant: small-caps;
+}
+
+h2 ::first-letter{
+    color: white;
+    font-size: 32px;
+    border: 2px solid red;
+    background-color: #000;
+    padding: 3px;
+}
+
+.pseudo ::selection{
+    color: rgb(255, 0, 10);
+    background-color: yellow;
+}
+.pseudo ::moz-selection{
+    color: rgb(255, 0, 10);
+    background-color: yellow;
+}
+
+.go0n ::after{
+    content: '...';
+}

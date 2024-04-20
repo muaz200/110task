@@ -1,0 +1,14 @@
+
+
+.style-border{
+    border-style: solid;
+    padding: 15px;
+    border-top-width: 2px;
+    border-right-width: 4px;
+    border-bottom-width: 6px;
+    border-left-width: 8px;
+    border-top-color: red;
+    border-right-color: rosybrown;
+    border-bottom-color: blue;
+    border-left-color: darkred;
+}

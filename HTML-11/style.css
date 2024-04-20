@@ -1,0 +1,32 @@
+
+
+p,h1,h2{
+    color: darkred;
+}
+
+h2.center{
+    text-align: center;
+}
+
+.style-table{
+    border: 1px solid #666;
+    margin: 15px;
+}
+
+.style-table td,th{
+    border: 1px solid #666;
+    padding: 10px;
+}
+.style-table tr{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.style-table th{
+    background-color: bisque;
+    color: midnightblue;
+    font-size: 28px;
+}
+
+.style-table td{
+    font-style: italic;
+}

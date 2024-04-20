@@ -1,0 +1,63 @@
+.frm-group{
+    background-color: darkolivegreen;
+    padding: 10px;
+    width: 50%;
+    border-radius: 4px;
+}
+
+label{
+    padding: 3px 3px;
+    color: white;
+    display: block;
+}
+
+input[type="text"],select{
+    width: 100%;
+    padding: 10px 0;
+    margin: 10px 0;
+    display: block;
+    border: 1px solid #000;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+button[type="button"]{
+    width: 100%;
+    background-color: #111;
+    color: #fff;
+    padding: 10px 0;
+    margin: 15px 0;
+    border: none;
+    border-radius: 3px;
+}
+button[type="button"] :hover{
+    background-color: #222;
+}
+
+input[type="text"] :focus{
+    box-shadow: 1px 1px 1px 5px rgba(0,0,0,0.3);
+}
+#search{
+    background: white url(https://i.pinimg.com/originals/ea/8a/dd/ea8add83ff049c68f5612eb80d7288db.jpg) no-repeat 3px 2px;
+    padding: 10px 39px;
+}
+
+select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 3px;
+}
+
+textarea{
+    width: 100%;
+    height: 140px;
+    color: #555;
+    padding: 10px 5px;
+    box-sizing: border-box;
+    border: 1px solid #111;
+    font-size: 10px;
+    background-color: #222;
+    resize: none;
+}
